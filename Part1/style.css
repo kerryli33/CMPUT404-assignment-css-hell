@@ -1,0 +1,18 @@
+*{
+    font-family: monospace;
+    color: #7B5E62;
+    font-size: 105%;
+    line-height: 1.5em;
+    margin: auto
+}
+#city_gif{
+    position: relative; left:-8%;
+}
+body{
+    background-color:#370C27;
+    background-blend-mode: lighten;
+}
+
+pre{
+    text-align: center
+}
