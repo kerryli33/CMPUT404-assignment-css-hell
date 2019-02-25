@@ -1,0 +1,82 @@
+*{
+    font-family: 'Comic Sans MS',cursive,sans-serif;
+    font-style:italic;
+    font-weight:bolder;
+    line-height: 2em;
+    text-align: center;
+}
+
+body{
+    background-image: url(imgs/memecat.png);
+    background-size: 30%;
+    background-repeat: repeat;
+}
+.tophead{
+    background-color:black;
+    color:red;
+}
+
+#welcome{
+    background-color: #222;
+    overflow: hidden;
+    margin:auto;
+    color:#f9f9f9;
+    font-style:italic;
+}.flex-container{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.flex-body{
+    padding:4em;
+    display:flex;
+
+    flex:1;
+}
+
+.sidebar-left,.sidebar-right{
+    background-color: #c2bfbf;
+    flex: 0 0 15em;
+}
+.sidebar-right{
+    order:2;
+}
+
+#about_me{
+    text-align: justify;
+    padding:10%;
+}
+
+#pts{
+    padding:10%;
+    padding-top: 23%;
+    
+}
+
+
+.main{
+    display:flex;
+    flex: 1;
+    padding:4em;
+    flex-flow: column wrap;
+    text-align: left;
+    overflow-y:auto;
+    margin-top:0;
+    min-height:110vh;
+}
+#value,#exp,#prjs{
+    position: relative;top:3%;
+}
+
+
+span{
+    font-style:italic;
+}
+ul{
+    padding:0;
+}
+
+footer{
+    background-color: #333; 
+    padding:1em;
+}
