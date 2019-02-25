@@ -1,0 +1,112 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(250, 249, 249);
+    color: #000;
+    font-size: 16px;
+    line-height: 1.4em;
+    margin: 0;
+}
+
+
+
+.tophead{
+    /*background-color: #f37f20f5;*/
+    background-color: rgb(35, 101, 145);
+    margin: auto;
+    overflow: hidden;
+    padding:1em;
+    color:#f9f9f9;
+}
+
+#welcome{
+    background-color: #222;
+    overflow: hidden;
+    margin:auto;
+    color:#f9f9f9;
+    font-style:italic;
+}
+
+h1,h2{
+    text-align: center;
+}
+
+h3{
+    font-size:27px;
+}
+
+h4,h5,h6{
+    font-size:25px;
+    margin:0;
+}
+
+img{
+    width:80%;
+    height:auto;
+}
+#intro{
+    overflow: hidden;
+    padding:4.5em;
+    background-image: url(imgs/intro.png);
+    background-size:contain;
+    
+}
+
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+ 
+}
+.flex-body{
+    padding:2em;
+    display:flex;
+
+    flex:1;
+}
+
+.sidebar-left,.sidebar-right{
+    background-color: #c2bfbf;
+    flex: 0 0 15em;
+}
+.sidebar-right{
+    order:2;
+}
+
+#about_me{
+    text-align: justify;
+    padding:10%;
+}
+
+#pts{
+    padding:10%;
+    padding-top: 23%;
+    
+}
+
+
+.main{
+    display:flex;
+    flex: 1;
+    padding:2em;
+    flex-flow: column wrap;
+    text-align:justify;
+    overflow-y:auto;
+    margin-top:0;
+    min-height:110vh;
+}
+#value,#exp,#prjs{
+    position: relative;top:3%;
+}
+
+
+span{
+    font-style:italic;
+}
+ul{
+    padding:0;
+}
+
+footer{
+    background-color: #333; 
+    padding:1em;
+}

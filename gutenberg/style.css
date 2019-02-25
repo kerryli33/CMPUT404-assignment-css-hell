@@ -1,0 +1,49 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("./paper.png");
+    line-height: 1.5em;
+    text-align:center;
+}    
+
+h1,h2,h3,h4,h5{
+    font-size: 25px;
+    color:#333;
+    font-weight:bold;
+}
+
+img{
+    display:in-line-block;
+    border-radius:20px;
+    text-align: center;
+}
+.imgcap{
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    color:rgb(114, 110, 54);
+}
+.figcenter{
+    text-align:center;
+}
+
+p{
+    text-align:justify;
+    margin-left:20%;
+    margin-right:20%;
+    line-height: 1.7em;
+}
+
+table{
+    margin: 0 auto;
+    border:#333;
+}
+
+a{
+    color:rgb(190, 59, 59);
+}
+a:visited{
+    color:#fff;
+}
+a:hover{
+    color:rgb(133, 81, 22);
+}
